@@ -25,7 +25,7 @@
 
 .img-box.small > img{
     flex: 1;
-    max-width: 250px;
+    max-height: 144px;
     display: flex;
     flex-direction: column;
     align-content: center;
