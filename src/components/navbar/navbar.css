@@ -103,6 +103,10 @@
 }
 
 @media screen and (max-width: 1050px) {
+    img {
+        max-width: 300px;
+    }
+
     .navbar-links_container {
         display: none;
     }

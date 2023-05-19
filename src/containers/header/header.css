@@ -7,6 +7,10 @@
     width: 45px;
 }
 
+.attribute {
+    font-weight: 500;  
+    color: #F29E4C;
+}
 
 
 .header-content {

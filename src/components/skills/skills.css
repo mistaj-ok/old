@@ -5,6 +5,7 @@
 
 }
 
+
 .skills-content {
     display: flex;
     flex: 1;
@@ -72,6 +73,15 @@ h1 {
     line-height: 75px;
     letter-spacing: -0.4rem;
 }
+
+
+@media (max-width: 480px) {
+    /* CSS styles for phones */
+    img {
+        max-width: 100px;
+        align-self: center;
+    }
+  }
 @media screen and (max-width: 500px) {
     
     .skills, .skills-content {
@@ -86,7 +96,29 @@ h1 {
         flex-direction: column;
     }
     img {
-        max-width: 100px;
+        max-width: 150px;
     }
 
 }
+
+
+@media screen and (max-width: 1050px) {
+ 
+    .header {
+        flex-direction: column;
+    }
+
+    .header-content {
+        margin: 0 0 3rem;
+    }
+}
+
+
+@media (min-width: 1025px) {
+    /* CSS styles for wide monitors */
+    #hero {
+        max-width: 400px;
+        align-self: center;
+    }
+    
+  }

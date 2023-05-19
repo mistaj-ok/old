@@ -11,7 +11,7 @@ const Skills = () => {
     <div className='skills section__padding' id="skills">
       <div className='skills-content'>
 
-      <img src={nj2010} alt="nj" />
+      <img id="hero" src={nj2010} alt="nj" />
 
       </div>
     </div>

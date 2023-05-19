@@ -11,15 +11,17 @@ import './navbar.css';
 
 const Menu = () => (
   <>
-    <p><a href='#home'>Home</a></p>
-    <p><a href='#projects'>Projects</a></p>
-    <p><a href='#resume'>Resume</a></p>
-    <p><a href='#featured'>Featured</a></p>
+
   </>
 )
-
+const handleClick = () => {
+  // Navigate to the specified URL
+  window.location.href=('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+};
 const NavBar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
+
+
   return (
     <div className="navbar">
       <div className='navbar-links'>
@@ -32,8 +34,7 @@ const NavBar = () => {
         </div>
       </div>
       <div className="navbar-sign" >
-        <p>Sign in</p>
-        <button type="button">Sign up</button>
+   
       </div>
       <div className='navbar-menu'>
         {toggleMenu
@@ -46,8 +47,10 @@ const NavBar = () => {
             <div className='navbar-menu_container-links'>
               <Menu />
               <div className='navbar-menu_container-links-sign'>
-                <p>Sign in</p>
-                <button type="button">Sign up</button>
+             
+
+                
+                <button onClick={handleClick}>dont,click</button>
               </div>
             </div>
           </div>
