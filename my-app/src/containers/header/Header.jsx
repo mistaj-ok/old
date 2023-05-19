@@ -3,7 +3,42 @@ import './header.css';
 import home from "../../assets/home.jpeg"
 import logoAp from "../../assets/appleLogo.png"
 import gMapsLogo from "../../assets/gMapsLogo.png"
+// import { google } from 'googleapis';
+// import axios from 'axios';
 
+// Example usage
+// axios.get('https://www.googleapis.com/calendar/v3')
+//   .then(response => {
+//     // Handle the response
+//   })
+//   .catch(error => {
+//     // Handle errors
+//   });
+// import { useEffect } from 'react';
+
+// const MyComponent = () => {
+//   useEffect(() => {
+//     const fetchEvents = async () => {
+//       try {
+//         const response = await axios.get(
+//           'https://www.googleapis.com/calendar/v3/calendars/primary/events?key=YOUR_API_KEY'
+//         );
+//         const events = response.data.items;
+//         // Process the events as needed
+//       } catch (error) {
+//         console.error('Error fetching events:', error);
+//       }
+//     };
+
+//     fetchEvents();
+//   }, []);
+
+//   return (
+//     <div>
+//       {/* Your component's JSX */}
+//     </div>
+//   );
+// };
 
 const Header = () => {
   return (

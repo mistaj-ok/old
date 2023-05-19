@@ -1,6 +1,7 @@
 .skills {
-    flex-direction: row;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     border: 2.4px solid #7fe4e4;
 
 }
@@ -8,9 +9,9 @@
 
 .skills-content {
     display: flex;
-    flex: 1;
+    flex: 1;    
     flex-direction: column;
-
+    align-items: center;
     justify-content: center;
 
 }
@@ -24,6 +25,7 @@ h1 {
     flex: 1;
     flex-direction: row;
     align-items: center;
+    flex-wrap: nowrap;
     justify-content: space-around;
     border: 2.4px solid #fff;
 }
@@ -44,7 +46,7 @@ h1 {
 }
 
 .img-box .wide {
-    height: 200px;
+    max-height: 144px;
 }
 
 /* .image {
@@ -83,15 +85,16 @@ h1 {
     }
   }
 @media screen and (max-width: 500px) {
-    
-    .skills, .skills-content {
+    .section__padding {
         padding: 2rem;
-        max-width: 100%;
-
-    };
-    .image-boxes {
+    }
+    .skills .image-boxes {
         flex-direction: column;
     }
+    .skills .img-box {
+        max-width: 100%;
+    }
+<<<<<<< HEAD:src/components/skills/skills.css
     .skills {
         flex-direction: column;
     }
@@ -122,3 +125,6 @@ h1 {
     }
     
   }
+=======
+}
+>>>>>>> 6ec79b9b31992617f8fed9c70a6e4ac8c4178d80:my-app/src/components/skills/skills.css
