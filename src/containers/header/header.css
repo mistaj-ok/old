@@ -3,6 +3,12 @@
     flex-direction: row;
 }
 
+.appleLogo {
+    width: 45px;
+}
+
+
+
 .header-content {
     display: flex;
     flex: 1;
@@ -59,8 +65,10 @@
     }
  
     .header-content {
-        background-color: hotpink;
+        /* background-color: var(--color-hero2); */
         font-size: 45px;
+
+        
         padding: 0;
     }
     .header-image {
